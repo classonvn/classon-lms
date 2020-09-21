@@ -58,7 +58,7 @@ class BigBlueButtonConference < WebConference
     send_request(:create, {
       :meetingID => conference_key,
       :name => title,
-      :voiceBridge => format("%020d", self.global_id),
+      # :voiceBridge => format("%020d", self.global_id),
       :attendeePW => settings[:user_key],
       :moderatorPW => settings[:admin_key],
       :logoutURL => (settings[:default_return_url] || "http://www.instructure.com"),
