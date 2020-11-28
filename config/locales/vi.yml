@@ -359,13 +359,13 @@ en:
       default_document_name: Tài liệu ClassOn
     incoming_message_processor:
       locked_topic:
-        body: | -
+        body: |-
           Không thể gửi tin nhắn có tiêu đề "%{topic}" vì chủ đề thảo luận đã bị khóa. Nếu bạn đang cố gắng liên hệ với ai đó thông qua ClassOn, bạn có thể thử đăng nhập vào tài khoản của mình và gửi tin nhắn cho họ bằng công cụ Hộp thư đến.
 
                     Cảm ơn bạn,
                     Hỗ trợ của ClassOn
       failure_message:
-        body: | -
+        body: |-
           Không thể gửi tin nhắn có tiêu đề "%{topic}". Tin nhắn đã được gửi đến một địa chỉ hộp thư không xác định. Nếu bạn đang cố gắng liên hệ với ai đó thông qua ClassOn, bạn có thể thử đăng nhập vào tài khoản của mình và gửi tin nhắn cho họ bằng công cụ Hộp thư đến.
 
                     Cảm ơn bạn,
@@ -383,7 +383,7 @@ en:
         result_total: 'Không thể phân tích điểm kết quả: %{class}'
       bad_score: Điểm không nằm trong khoảng từ 0 đến 1
       no_score: Không có điểm nào được đưa ra
-      no_points_comment: | -
+      no_points_comment: |-
         Một công cụ bên ngoài đã cố gắng phân loại nhiệm vụ này là %{class}, nhưng không thể
         để bởi vì bài tập không có điểm có thể.
       no_points_possible: Bài tập không có điểm nào khả thi.
@@ -587,37 +587,37 @@ en:
     quizzes:
       next: Câu đố mới
     quiz_log_auditing: Kiểm tra nhật ký theo dõi
-  google_docs_domain_restriction_description: | -
+  google_docs_domain_restriction_description: |-
     Google Docs Domain Restriction allows Google Docs submissions and collaborations
     to be restricted to a single domain. Students attempting to submit assignments or
     join collaborations on an unapproved domain will receive an error message notifying them
     that they will need to update their Google Docs integration.
   epub_exporting_f5592ff2: Xuất khẩu thành ePub
   this_enables_users_to_generate_and_download_course_4c69c531: Điều này cho phép người dùng tạo và tải xuống khóa học ePub.
-  high_contrast_description: | -
+  high_contrast_description: |-
     High Contrast enhances the color contrast of the UI (text, buttons, etc.), making those items more
 	distinct and easier to identify. Note: Institution branding will be disabled.
   disable_celebrations_description: Kích hoạt tính năng này ẩn tất cả các hình ảnh động kỹ niệm .
   underline_links_e7cf9b4f: Liên kết gạch chân
-  underline_all_links_description: | -
+  underline_all_links_description: |-
     Liên kết gạch chân hiển thị các siêu liên kết trong menu điều hướng, Bảng điều khiển và thanh bên trang dưới dạng
     * gạch chân văn bản *. Tùy chọn tính năng này không áp dụng cho các liên kết nội dung do người dùng tạo trong
     Rich Content Editor, luôn gạch chân các liên kết cho tất cả người dùng.
   course_set_up_tutorial_6ab7c2d1: Hướng dẫn thiết lập khóa học
   course_set_up_tutorial_provides_tips_on_how_to_lev_3c098131: Hướng dẫn thiết lập khóa học cung cấp các mẹo về cách tận dụng các cơ hội tính năng trên mỗi trang trong ClassOn. Nó đặc biệt hữu ích khi bạn mới tham gia ClassOn hoặc đang thiết lập một khóa học mới lần đầu tiên sau một thời gian dài.
-  learning_mastery_gradebook_description: | -
+  learning_mastery_gradebook_description: |-
     Learning Mastery Gradebook cung cấp một cách để giáo viên nhanh chóng xem sinh viên và khóa học
     tiến bộ về kết quả học tập khóa học. Kết quả được trình bày trong một cuốn sách giống như Sổ Điểm
     định dạng và tiến bộ của học sinh được hiển thị cả dưới dạng điểm số và thành thạo / gần
     làm chủ / khắc phục.
-  student_outcome_gradebook_description: | -
+  student_outcome_gradebook_description: |-
     Sổ tay học tập thành thạo học sinh cung cấp một cách để sinh viên nhanh chóng xem tiến bộ
     về kết quả học tập khóa học. Kết quả được trình bày trong một cuốn sách giống như Sổ Điểm
     định dạng và tiến trình được hiển thị cả dưới dạng điểm số và được làm chủ / gần
     làm chủ / khắc phục.
   allow_outcome_extra_credit_57c1e84e: Cho phép thêm tín chỉ đầu ra
   if_enabled_allows_more_than_the_maximum_possible_s_5d79c0d5: Nếu được bật, cho phép nhiều hơn số điểm tối đa có thể có trên kết quả được đưa ra trên phiếu tự đánh giá.
-  post_grades_description: | -
+  post_grades_description: |-
     Post Grades allows teachers to post grades back to enabled SIS systems: Quyền hạn,
     Aspire (SIS2000), JMC và bất kỳ SIS hỗ trợ SIF nào khác chấp nhận các yếu tố SIF GradingC Category,
     GradingAss que, GradingAss queScore.
@@ -637,7 +637,7 @@ en:
   membership_service_configuration_d8ba5a74: Cấu hình cho dịch vụ thành viên
   if_enabled_oauth_1_0a_signing_may_be_used_by_lti_t_f2d6da3b: Nếu được bật, ký hiệu OAuth 1.0a có thể được sử dụng bởi các công cụ LTI để truy cập API dịch vụ thành viên
   enable_new_sis_integration_settings_ab6780a4: Kích hoạt cài đặt tích hợp SIS mới
-  new_sis_integrations: | -
+  new_sis_integrations: |-
     Tính năng này áp dụng cho các tổ chức có tích hợp SIS ClassOn hiện có.
     Bất kỳ khách hàng nào hiện đang sử dụng giải pháp trả lại cấp trong ClassOn hoặc
     sản phẩm đối tác nên kích hoạt tính năng này để tăng cường dữ liệu chuyển nhượng
@@ -722,7 +722,7 @@ en:
   allows_help_links_to_be_tagged_as_featured_or_new__ed5742c2: Cho phép Liên kết trợ giúp được gắn thẻ là nổi bật hoặc Mới và được hiển thị nổi bật các liên kết trợ giúp nổi bật trong Menu trợ giúp.
   classic_quizzes_option_for_timed_quizzes_without_s_567b117d: Tùy chọn câu đố mẫu được hẹn giờ mà không cần gửi
   presents_the_quiz_setting_to_avoid_automatic_submi_363b91ff: Hiển thị cách cài đặt bài kiểm tra để tránh tự động gửi bài kiểm tra khi thời gian khả dụng đã kết thúc.
-  quiz_log_auditing_desc: | -
+  quiz_log_auditing_desc: |-
     Cho phép theo dõi các sự kiện để gửi bài kiểm tra và khả năng
           để xem nhật ký của những sự kiện đó sau khi đệ trình được thực hiện.
   anonymous_moderated_marking_801bbb65: Đánh dấu kiểm duyệt ẩn danh
@@ -732,13 +732,13 @@ en:
   moderated_grading_e6127f72: Phân loại kiểm duyệt
   enable_moderated_grading_bacd20d8: Cho phép chấm điểm kiểm duyệt.
   graphql_mutation_log_25acc923: Nhật ký đột biến GraphQL
-  allows_admins_to_view_a_log_containing_information_5d4eb5e0: | -
+  allows_admins_to_view_a_log_containing_information_5d4eb5e0: |-
     Cho phép quản trị viên xem nhật ký chứa thông tin về tất cả các lần chạy gần đây
     Đột biến graphQL
   microsoft_immersive_reader_free_trial_wiki_pages_f41b29d5: Microsoft Immersive Reader - Bản dùng thử miễn phí (Trang Wiki)
   makes_a_microsoft_immersive_reader_link_option_sho_4dc2fcfb: Làm cho tùy chọn liên kết Microsoft Immersive Reader hiển thị trên các trang wiki.
   canvas_elementary_theming_a42fa76f: Chủ đề lớp học
-  elementary_friendly_theme_font_and_limited_course__b8939e48: | -
+  elementary_friendly_theme_font_and_limited_course__b8939e48: |-
     Chủ đề thân thiện tiểu học, phông chữ, và điều hướng khóa học hạn chế.
     Bản cập nhật phông chữ chỉ áp dụng cho các ngôn ngữ sử dụng Bảng chữ cái La tinh.
   new_post_policy_icons_da13a62c: Biểu tượng cho chính sách post mới
@@ -788,15 +788,15 @@ en:
   custom_reports_experimental_features_40bbfe7c: 'Báo cáo tùy chỉnh: Tính năng thử nghiệm'
   use_experimental_features_before_they_are_generall_3dfaddd1: Sử dụng các tính năng thử nghiệm trước khi chúng thường được kích hoạt trong sản xuất
   confetti_for_on_time_submissions_394e16ce: Confetti cho các bài nộp đúng hạn
-  displays_confetti_for_users_that_turn_in_an_assign_6899ccef: | -
+  displays_confetti_for_users_that_turn_in_an_assign_6899ccef: |-
     Hiển thị confetti cho người dùng bật bài tập trước
     đến ngày đáo hạn đã đặt.
   confetti_for_valid_links_7506df83: Confetti cho các liên kết hợp lệ
-  displays_confetti_for_teachers_that_run_the_link_v_d05ec11b: | -
+  displays_confetti_for_teachers_that_run_the_link_v_d05ec11b: |-
     Hiển thị confetti cho giáo viên chạy trình xác nhận liên kết trên
     một khóa học và không có vấn đề được tìm thấy.
   restrict_sms_to_select_types_9dd6399c: Hạn chế SMS để chọn loại
-  disables_sms_notifications_for_all_types_except_an_3d130ca2: | -
+  disables_sms_notifications_for_all_types_except_an_3d130ca2: |-
     Tắt thông báo SMS cho tất cả các loại trừ thông báo và
     thay đổi điểm số.
   hide_course_sections_from_students_b7850d64: Ẩn phần khóa học từ sinh viên
@@ -804,17 +804,17 @@ en:
   mute_notifications_by_course_440e18be: Tắt thông báo theo khóa học
   allows_users_to_mute_notifications_on_a_course_lev_775b0362: Cho phép người dùng tắt tiếng thông báo ở mức độ chi tiết của khóa học.
   course_level_overrides_for_notification_preference_e86d1725: Ghi đè cấp khóa học cho các tùy chọn thông báo
-  allows_users_to_override_specific_notification_pre_18cf5b9e: | -
+  allows_users_to_override_specific_notification_pre_18cf5b9e: |-
     Cho phép người dùng ghi đè tùy chọn thông báo cụ thể trên
     Tất nhiên theo cơ sở khóa học.
   show_past_account_level_announcements_to_users_3b8208e2: Hiển thị thông báo cấp tài khoản trước đây cho người dùng
-  show_past_account_level_announcements_to_users_all_6918f8e1: | -
+  show_past_account_level_announcements_to_users_all_6918f8e1: |-
     Hiển thị thông báo cấp tài khoản trong quá khứ cho người dùng. Cho phép
     một người dùng để xem các thông báo đã kết thúc hoặc bị loại bỏ.
   smart_alerts_44db622e: Cảnh báo thông minh
   notify_students_in_time_of_assignments_that_requir_332ef10e: Thông báo cho học sinh trong thời gian bài tập yêu cầu sự chú ý của họ.
   rce_auto_save_f004fba9: RCE Tự động lưu
-  if_rce_enhancements_are_also_enabled_the_rce_will__2fd293c4: | -
+  if_rce_enhancements_are_also_enabled_the_rce_will__2fd293c4: |-
     Nếu cải tiến RCE cũng được bật,
     RCE sẽ tự động lưu công việc của bạn khi bạn đi
   edit_closed_captions_e5fdeb79: Chỉnh sửa chú thích đóng
@@ -832,13 +832,13 @@ en:
   bookmarking_for_enrollments_index_api_840be156: Đánh dấu cho API chỉ mục tuyển sinh
   use_bookmarking_for_api_pagination_in_enrollments__52b9bc28: Sử dụng đánh dấu trang để phân trang API trong Chỉ mục tuyển sinh
   submission_type_lti_placement_b448d5d0: Loại đăng ký LTI Vị trí
-  if_an_lti_tool_configured_with_the_placement_is_in_41e4244: | -
+  if_an_lti_tool_configured_with_the_placement_is_in_41e4244: |-
     Nếu một công cụ LTI được định cấu hình với vị trí được cài đặt, sẽ hiển thị cổng mới trong mục
     giao nhiệm vụ theo dạng thả xuống để nhanh chóng cấu hình phân công công cụ.
   syllabus_course_summary_option_951a8144: Giáo trình Tóm tắt Tùy chọn Tóm tắt
   make_the_course_summary_list_of_assignments_and_ev_f739be33: Làm cho Tóm tắt khóa học (danh sách các bài tập và sự kiện) tùy chọn trong giáo trình
   allow_blueprint_publishing_after_association_fae6ba95: Cho phép xuất bản Blueprint sau khi kết hợp
-  show_a_checkbox_that_optionally_lets_an_account_ad_209b2aa6: | -
+  show_a_checkbox_that_optionally_lets_an_account_ad_209b2aa6: |-
     Hiển thị hộp kiểm tùy chọn cho phép quản trị viên tài khoản xuất bản các khóa học
     tự động sau khi liên kết và đồng bộ hóa với khóa học kế hoạch chi tiết
   enable_fullstory_5c673a06: Kích hoạt tính năng đầy đủ
@@ -860,11 +860,11 @@ en:
   outcomes_service_alignment_migration_5b4391ad: Di chuyển kết quả dịch vụ sắp xếp
   includes_outcomes_service_alignments_when_exportin_6c578a35: Bao gồm các kết quả Dịch vụ sắp xếp khi xuất và nhập nội dung khóa học
   system_and_user_generated_events_84bc4c8a: Sự kiện do hệ thống và người dùng tạo
-  differentiate_between_system_and_user_generated_li_dc466585: | -
+  differentiate_between_system_and_user_generated_li_dc466585: |-
     Phân biệt giữa các sự kiện trực tiếp do hệ thống và người dùng tạo
     trong công cụ Dịch vụ dữ liệu ClassOn
   live_event_subscription_webhooks_1dae83bb: Webhooks đăng ký sự kiện trực tiếp
-  allow_live_event_subscription_to_be_set_to_be_deli_ba8d8a9a: | -
+  allow_live_event_subscription_to_be_set_to_be_deli_ba8d8a9a: |-
     Cho phép đăng ký sự kiện trực tiếp được thiết lập để được phân phối
     thông qua webhooks HTTPS
   live_event_tool_documentation_f6dcc3d7: Tài liệu công cụ sự kiện trực tiếp
@@ -872,11 +872,11 @@ en:
   developer_key_include_parameter_support_58cbf874: Khóa nhà phát triển bao gồm hỗ trợ tham số
   provides_a_flag_on_the_devloper_key_to_support_inc_4a1ce85a: Cung cấp cờ trên Khóa Devloper để hỗ trợ Bao gồm tham số cho các yêu cầu API
   process_multiple_content_items_from_course_modules_6de90fd8: Xử lý nhiều mục nội dung từ trang mô-đun khóa học
-  if_enabled_canvas_will_allow_tools_to_return_multi_93e87532: | -
+  if_enabled_canvas_will_allow_tools_to_return_multi_93e87532: |-
     Nếu được bật, ClassOn sẽ cho phép các công cụ trả về nhiều mục nội dung
     trong một yêu cầu duy nhất tại trang mô-đun khóa học
   only_show_site_admin_keys_in_the_site_admin_ui_64827f33: Chỉ hiển thị khóa quản trị trang trong giao diện người dùng quản trị trang
-  if_enabled_the_site_admin_developer_key_ui_will_on_d4b4458b: | -
+  if_enabled_the_site_admin_developer_key_ui_will_on_d4b4458b: |-
     Nếu được bật, giao diện người dùng khóa nhà phát triển quản trị trang sẽ chỉ hiển thị
     khóa nhà phát triển quản trị trang. Lưu ý rằng điều này chỉ ảnh hưởng
     Các trường hợp ClassOn nơi các tài khoản root nằm trên cùng một phân đoạn
@@ -1229,7 +1229,7 @@ en:
       google_docs_domain: Tên miền Google Docs được phép
       quiz_ip_filters_help_tooltip: Bộ lọc IP đố là gì?
       quiz_ip_filters_help_title: Bộ lọc IP đố là gì?
-      quiz_ip_filters_help_message: | -
+      quiz_ip_filters_help_message: |-
         Bộ lọc IP đố là một cách để hạn chế quyền truy cập vào các câu đố vào máy tính trong một phạm vi IP được chỉ định.
 
         Chỉ định một bộ các bộ lọc địa chỉ IP mà giáo viên có thể sử dụng để bảo vệ quyền truy cập vào các câu đố. Các bộ lọc có thể là danh sách địa chỉ được phân tách bằng dấu phẩy hoặc địa chỉ được theo sau bởi mặt nạ ("192.168.217.1/24" hoặc "192.168.217.1/255.255.255.0"). "
@@ -1245,7 +1245,7 @@ en:
       confirm_turnitin_settings_link: Xác nhận cài đặt Turnitin
       turnitin_comments_help: những nhận xét này sẽ được hiển thị cho sinh viên khi gửi bài tập kích hoạt Turnitin
       about_google_docs_tooltip: Giới thiệu về Xem trước Google Docs
-      about_google_docs: | -
+      about_google_docs: |-
         Xem trước Google Docs cho phép người dùng xem tài liệu từ
         trong ClassOn, thay vì phải tải chúng xuống và
         undefined: Word hoặc Excel).
@@ -2184,7 +2184,7 @@ en:
         jump_to_today: Chuyển đến hôm nay
         edit_syllabus_description: Chỉnh sửa
       instructions:
-        syllabus: | -
+        syllabus: |-
           Trang giáo trình hiển thị chế độ xem theo bảng của lịch trình khóa học và những điều cơ bản của
           chấm điểm khóa học. Bạn có thể thêm bất kỳ nhận xét, ghi chú hoặc suy nghĩ nào khác về khóa học
           cấu trúc, chính sách khóa học hoặc bất cứ điều gì khác.
@@ -2502,7 +2502,7 @@ en:
       test_ldap_login_help_header: Máy chủ LDAP từ chối thông tin đăng nhập của bạn
       test_ldap_dialog_close: Đóng
     linkedin_fields:
-      description: | -
+      description: |-
         Bạn sẽ cần [đăng ký một ứng dụng trên LinkedIn] (%{Linkedin_url}).
         Bạn nên thêm%{callback_url} làm URL chuyển hướng được ủy quyền OAuth 2.0 và đặt Trạng thái ứng dụng thành Live
         Sau khi bạn tạo ứng dụng của mình, hãy ghi chú ID khách hàng và Bí mật khách hàng và nhập chúng vào đây.
@@ -2609,21 +2609,21 @@ en:
       collaboration_name: "%{Course_or_group_name} Cộng tác"
     index:
       page_title: Hợp tác
-      description_rs: | -
+      description_rs: |-
         Các công cụ web trực tuyến miễn phí như [Google Docs] (%{google_url}) là một nơi tuyệt vời để sinh viên làm việc trong các dự án nhóm hoặc giấy tờ, ghi chú chung, v.v.
         Giáo viên * hoặc * học sinh có thể thiết lập hợp tác nhóm.
       titles:
         current: Hợp tác hiện tại
       links:
         new: Bắt đầu hợp tác mới
-      description_teacher: | -
+      description_teacher: |-
         ** Chúng ta có ý nghĩa gì khi cộng tác? ** Chúng ta đang nói về các công cụ dựa trên web mà hầu hết
         có khả năng học sinh của bạn đã quen thuộc. Sinh viên có thể sử dụng các tài nguyên như
         [Google Docs] (%{google_url})
         để hợp tác làm việc trong các nhiệm vụ như giấy tờ nhóm hoặc ghi chú. Trang này cung cấp cho họ
         (và bạn) một nơi dễ dàng để theo dõi những sự hợp tác đó, và cũng để thiết lập chúng
         lên mà không phải trao đổi email.
-      description_student: | -
+      description_student: |-
         ** Chúng ta có ý nghĩa gì khi cộng tác? ** Chúng ta đang nói về các công cụ dựa trên web cho
         làm việc cùng nhau trên một tài liệu được chia sẻ. Bạn có thể sử dụng các tài nguyên như
         [Google Docs] (%{google_url})
@@ -2676,7 +2676,7 @@ en:
       details:
         wrong_account: Lời mời cho%{Course} đã được gửi tới **%{invited_user} **, nhưng bạn hiện đang đăng nhập với tên **%{current_user} **
         merge_one: Bạn có muốn kết hợp các tài khoản người dùng **%{current_user} ** và **%{other_user} ** không?
-        account_exists: | -
+        account_exists: |-
           Có một tài khoản người dùng đã được liên kết với%{email}.
 
             ** Bạn có phải là%{name}? **
@@ -2685,7 +2685,7 @@ en:
         logged_in_other_user: "**%{email} ** là một tài khoản mới, nhưng bạn hiện đang đăng nhập với tên **%{user} **."
         add_email: Bạn có muốn thêm địa chỉ email này vào tài khoản hiện tại của mình không?
         merge_multiple: Chọn tài khoản bạn muốn kết hợp với **%{current_user} **.
-        multiple_accounts_course: | -
+        multiple_accounts_course: |-
           Đã có tài khoản%{count} được liên kết với địa chỉ email này.
 
           Bạn là ai
@@ -2736,7 +2736,7 @@ en:
         join: Tham gia ngay bây giờ
     confirm:
       delete: Bạn có chắc chắn muốn xóa hội nghị này?
-      close: | -
+      close: |-
         Bạn có chắc chắn muốn kết thúc hội nghị này?
 
         Bạn sẽ không thể mở lại nó.
@@ -3438,7 +3438,7 @@ en:
       headings:
         groups: Nhóm khóa học
     link_enrollment:
-      details: | -
+      details: |-
         Khi một người quan sát được liên kết với một học sinh, họ có quyền truy cập vào các lớp và các tương tác khóa học của học sinh đó. * Ngay bây giờ người quan sát này được liên kết với học sinh,%{student}. *
 
         Để liên kết người quan sát khóa học%{user} với một sinh viên, chọn tên của sinh viên từ danh sách bên dưới.
@@ -4028,7 +4028,7 @@ en:
       links:
         create: Tạo một danh mục đầu tư
       what:
-        details1: | -
+        details1: |-
           Cổng thông tin điện tử là nơi bạn có thể hiển thị và thảo luận về ý nghĩa
           đệ trình và kinh nghiệm đang diễn ra trong quá trình học tập của bạn
           process. You can use an ePortfolio to:
@@ -4495,7 +4495,7 @@ en:
           mfa: Xác thực đa yếu tố
         details:
           mfa_required: Bạn được yêu cầu thiết lập xác thực đa yếu tố.
-          mfa_enrollment: | -
+          mfa_enrollment: |-
             Xác thực đa yếu tố làm tăng tính bảo mật bằng cách yêu cầu bạn có thứ gì đó thuộc sở hữu vật lý của bạn,
             ngoài việc biết mật khẩu của bạn, để đăng nhập vào ClassOn. Đây có thể là một thiết bị có thể tạo ra
             mã xác minh hoặc điện thoại có thể nhận tin nhắn văn bản. Ứng dụng Google Authenticator cho [iPhone] (%{iphone_url}) hoặc
@@ -4786,7 +4786,7 @@ en:
       labels:
         client_id: ID dịch vụ
     assignment_freezer_settings:
-      description: | -
+      description: |-
         Plugin này cho phép quản trị viên kiểm tra một thuộc tính trên các bài tập làm cho cấu hình
         thuộc tính không thể chỉnh sửa một khi bài tập được sao chép vào một khóa học khác.
       no_copying_frozen: Không cho phép các bài tập bị đóng băng được sao chép.
@@ -4831,7 +4831,7 @@ en:
       labels:
         endpoint_uri: URI để POST dữ liệu tới (https://www.somewhere.com/endpoint/path)
     diigo_settings:
-      description: | -
+      description: |-
         Bạn sẽ cần phải đăng ký [ứng dụng mới trên Diigo] (%{diigo_url}).
 
         * Sau khi bạn lưu ứng dụng của mình, hãy ghi lại Khóa API
@@ -4855,7 +4855,7 @@ en:
       hints:
         domain: Không bao gồm phần "http: //" hoặc bất kỳ dấu gạch chéo
     facebook_settings:
-      description: | -
+      description: |-
         Bạn sẽ cần tạo [ứng dụng mới trên Facebook] (%{facebook_url}) và bật Đăng nhập OAuth của khách hàng
         trong Cài đặt nâng cao. Bạn nên định cấu hình%{callback_url} làm URI chuyển hướng OAuth hợp lệ.
         Sau khi bạn lưu ứng dụng của mình, hãy ghi lại ID ứng dụng và Bí mật ứng dụng và nhập chúng vào đây.
@@ -4868,7 +4868,7 @@ en:
         client_id: ID khách hàng
         client_secret: Bí mật khách hàng
     google_docs_settings:
-      description: | -
+      description: |-
         Bạn sẽ cần [đăng ký tên miền của mình với Google] (%{google_url}).
         Ghi lại các giá trị "Khóa tiêu dùng OAuth" và "Bí mật người tiêu dùng OAuth" của bạn.
       labels:
@@ -4884,7 +4884,7 @@ en:
         client_secret_json: Bí mật khách hàng json
       description: Dán nội dung của client_secrets.json bên dưới. Các hộp văn bản ở trên sẽ được tự động điền vào dựa trên nội dung được đưa ra dưới đây.
     grade_export_settings:
-      description: | -
+      description: |-
         Plugin này cho phép các lớp cuối cùng được xuất bản trở lại hệ thống thông tin sinh viên (SIS). Khi được bật, người dùng sẽ được cung cấp một tùy chọn trong sổ điểm để xuất bản các lớp này. Điều này sẽ xảy ra thông qua một yêu cầu POST đến điểm cuối xuất bản được chỉ định. Mỗi loại định nghĩa định dạng nội dung và loại mime riêng của nó. Phản hồi từ điểm cuối không quan trọng và hiện bị bỏ qua.
 
         For example, the ClassOn formatted CSV will POST a csv file with mime type 'text/csv' to the specified endpoint, containing the following columns:
@@ -4907,7 +4907,7 @@ en:
       labels:
         migration_rate: Cơ hội di chuyển các tệp cũ hơn vào Inst-FS khi truy cập (0 đến 100)
     kaltura_settings:
-      description: | -
+      description: |-
         Bạn sẽ cần một tài khoản tại [Kaltura.com] (%{kaltura_url})
         hoặc với một ví dụ tự lưu trữ của Kaltura.
 
@@ -4967,7 +4967,7 @@ en:
         aws_secret_access_key: Khóa truy cập bí mật AWS
       endpoint_region_requirement: Yêu cầu Vùng AWS hoặc Điểm cuối. Điểm cuối thường chỉ được sử dụng để phát triển.
     microsoft_settings:
-      description: | -
+      description: |-
         Bạn sẽ cần phải đăng ký [ứng dụng mới với Microsoft] (%{ms_app_url}).
         Bạn nên định cấu hình%{callback_url} làm URI chuyển hướng.
         Sau khi bạn lưu ứng dụng của mình, hãy ghi lại ID ứng dụng và Bí mật và nhập chúng vào đây.
@@ -5077,7 +5077,7 @@ en:
         section_end_days_adjustment: Điều chỉnh ngày kết thúc
         default_enrollment_status: Trạng thái đăng ký đã bị xóa
     webct_scraper_settings:
-      description: | -
+      description: |-
         Nếu tổ chức không sử dụng "Mô-đun học tập" của WebCT (bao gồm cả các trường đã áp dụng WebCT
           trước phiên bản 4.0, khi các mô-đun được cung cấp), việc di chuyển khóa học có thể được cải thiện bằng cách nhập "Nội dung khóa học"
           như Mô-đun ClassOn thay vì "Mô-đun học tập". Trang này cho phép một người đặt hành vi mặc định của trình di chuyển WebCT
@@ -5293,7 +5293,7 @@ en:
       no_registered_services: Không có dịch vụ đã đăng ký
       google_drive_description: Khi bạn cho phép chúng tôi xem Google Drive, bạn sẽ có thể gửi bài tập trực tiếp từ Google Drive, đồng thời tạo và chia sẻ tài liệu với các thành viên trong lớp.
       skype_description: Skype cung cấp các cuộc gọi thoại và video trực tuyến miễn phí. Rất nhiều sinh viên sử dụng Skype như một cách miễn phí, dễ dàng để giao tiếp. Nếu bạn đăng ký Tên Skype của mình và cho phép hiển thị, thì các sinh viên khác có thể dễ dàng tìm thấy liên hệ của bạn và gọi hoặc thêm bạn bằng Skype.
-      twitter_description: | -
+      twitter_description: |-
         Twitter là một dịch vụ để đăng và đăng ký các tin nhắn ngắn.
         Nếu bạn có tài khoản Twitter, bạn có thể đăng ký tại đây. Sau đó, nếu bạn cho phép
         khóa học / thành viên nhóm để xem các dịch vụ đã đăng ký của bạn, họ có thể
@@ -5308,11 +5308,11 @@ en:
       approved_integrations: 'Đây là các ứng dụng của bên thứ ba mà bạn đã ủy quyền truy cập trang ClassOn thay mặt bạn:'
       loading_token_details: Đang tải chi tiết mã thông báo ...
       error_loading_token_details: Lỗi khi tải chi tiết mã thông báo
-      full_token_warning: | -
+      full_token_warning: |-
         ** Sao chép mã thông báo này xuống ngay bây giờ **. Khi bạn rời khỏi trang này, bạn sẽ không thể
         lấy lại mã thông báo đầy đủ nữa, bạn sẽ phải tạo lại mã thông báo mới
         giá trị.
-      generate_access_token_description: | -
+      generate_access_token_description: |-
         Mã thông báo truy cập là những gì cho phép các ứng dụng của bên thứ ba truy cập ClassOn
         tài nguyên thay mặt bạn. Các mã thông báo này thường được tạo tự động cho
         các ứng dụng khi cần, nhưng nếu [bạn đang phát triển mới hoặc giới hạn
@@ -6529,12 +6529,12 @@ en:
       user_not_teacher: Người dùng đó không phải là giáo viên trong khóa học này
     no_self_registration: Tự đăng ký chưa được kích hoạt cho tài khoản này
     welcome:
-      unpublished_courses_message: | -
+      unpublished_courses_message: |-
         Bạn đã đăng ký vào một hoặc nhiều khóa học chưa bắt đầu. Một lần
                 những khóa học có sẵn, bạn sẽ thấy thông tin về chúng ở đây
                 và trong điều hướng ở phía bên trái. Trong lúc này, hãy đăng ký
                 nhiều khóa học hoặc thiết lập hồ sơ của bạn.
-      no_courses_message: | -
+      no_courses_message: |-
         Bạn không có bất kỳ khóa học nào, vì vậy trang này bây giờ sẽ không thú vị lắm.
                 Khi bạn đã tạo hoặc đăng ký các khóa học, bạn sẽ bắt đầu thấy
                 cuộc hội thoại từ tất cả các lớp học của bạn.
@@ -7555,12 +7555,12 @@ en:
     warnings:
       truncated_wiki_title: 'Tiêu đề của trang wiki sau đã bị cắt ngắn:% {title}'
   undelivered_message_459916a9: Tin nhắn chưa được gửi
-  the_message_titled_subject_could_not_be_delivered__f063857e: | -
+  the_message_titled_subject_could_not_be_delivered__f063857e: |-
     Không thể gửi tin nhắn có tiêu đề "% {topic}" vì chủ đề thảo luận đã bị xóa. Nếu bạn đang cố gắng liên hệ với ai đó thông qua ClassOn, bạn có thể thử đăng nhập vào tài khoản của mình và gửi tin nhắn cho họ bằng công cụ Hộp thư đến.
 
               Cảm ơn bạn,
               Hỗ trợ ClassOn
-  the_message_you_sent_with_the_subject_line_subject_c73f92e4: | -
+  the_message_you_sent_with_the_subject_line_subject_c73f92e4: |-
     Tin nhắn bạn đã gửi với dòng chủ đề "% {topic}" không được gửi. Để trả lời tin nhắn ClassOn từ email này, trước tiên nó phải là kênh liên lạc được xác nhận trong hồ sơ ClassOn của bạn. Vui lòng truy cập hồ sơ của bạn và gửi lại email xác nhận cho địa chỉ email này. Bạn cũng có thể liên hệ với người này qua Hộp thư đến ClassOn.
 
               Cảm ơn bạn,
@@ -7761,10 +7761,10 @@ en:
     account_notification_display: Thông báo toàn cầu
     missing_display_display: Dành cho thông báo% {category}
     announcement_description: Thông báo mới trong khóa học của bạn
-    announcement_created_by_you_description: | -
+    announcement_created_by_you_description: |-
       * Thông báo do bạn tạo
       * Trả lời các thông báo bạn đã tạo
-    course_content_description: | -
+    course_content_description: |-
       Change to course content:
 
       * Nội dung trang
@@ -7774,29 +7774,29 @@ en:
     discussion_description: Chủ đề thảo luận mới trong khóa học của bạn
     discussion_post_description: Bài thảo luận mới trong một chủ đề bạn đã đăng ký
     due_date_description: Chuyển nhượng đúng hạn thay đổi
-    grading_description: | -
+    grading_description: |-
       Includes:
 
       * Bài tập / lớp nộp đã nhập / thay đổi
       * Trọng lượng thay đổi
-    late_grading_description: | -
+    late_grading_description: |-
       *Instructor and Admin only: *
 
       Nộp bài tập trễ
-    all_submissions_description: | -
+    all_submissions_description: |-
       *Instructor and Admin only: *
 
       Bài tập (trừ câu hỏi) nộp / gửi lại
     submission_comment_description: Phân công nhận xét
     grading_policies_description: Thay đổi chính sách chấm điểm khóa học
-    invitation_description: | -
+    invitation_description: |-
       Invitation for:
 
       * Hội thảo trên web
       * Nhóm
       * Hợp tác
       * Đánh giá và nhắc nhở ngang hàng
-    other_description: | -
+    other_description: |-
       *Instructor and Admin only: *
 
       * Ghi danh khóa học
@@ -7806,7 +7806,7 @@ en:
       * Người dùng tài khoản mới
       * Nhóm sinh viên mới
     calendar_description: Các mục mới và thay đổi trên lịch khóa học của bạn
-    student_appointment_description: | -
+    student_appointment_description: |-
       *Instructor and Admin only: *
 
       Đăng ký sinh viên
@@ -7816,22 +7816,22 @@ en:
     added_to_conversation_description: Bạn được thêm vào một cuộc trò chuyện
     conversation_created_description: Bạn đã tạo một cuộc trò chuyện
     web_conference_recording_ready: Một bản ghi âm hội nghị đã sẵn sàng
-    membership_update_description: | -
+    membership_update_description: |-
       *Admin only: kích hoạt đăng ký đang chờ xử lý *
 
       * Ghi danh nhóm
       * chấp nhận / từ chối
-    blueprint_description: | -
+    blueprint_description: |-
       *Instructor and Admin only: *
 
       Nội dung được đồng bộ hóa từ khóa học kế hoạch chi tiết sang các khóa học liên quan
-    content_link_error_description: | -
+    content_link_error_description: |-
       *Instructor and Admin only: *
 
       Vị trí và nội dung của một liên kết thất bại mà một sinh viên đã tương tác với
     account_notification_description: Thông báo trên toàn bộ tổ chức (cũng được hiển thị trên trang Bảng điều khiển)
     missing_description_description: Dành cho thông báo% {category}
-  include_scores_when_alerting_about_grades_if_your__b221c2c8: | -
+  include_scores_when_alerting_about_grades_if_your__b221c2c8: |-
     Bao gồm điểm số khi cảnh báo về điểm số.
               Nếu email của bạn không phải là email của tổ chức, điều này có nghĩa là nội dung nhạy cảm sẽ được gửi bên ngoài tổ chức.
   annotation_notification_685eaeb9: Thông báo chú thích
@@ -7840,7 +7840,7 @@ en:
   assignment_missing_assignment_name_in_course_code_7f940b35: 'Thiếu bài tập:% {gán_name} trong% {Course_code}'
   an_unexpected_error_has_occurred_see_error_report__f20b878d: 'Đã xảy ra lỗi không mong muốn: xem báo cáo lỗi% {id}'
   outcomes_import_completed_baff5cb0: Kết quả nhập khẩu đã hoàn thành
-  hello_name_your_outcomes_were_successfully_importe_a510e0d: | -
+  hello_name_your_outcomes_were_successfully_importe_a510e0d: |-
     Xin chào% {tên},
 
             Kết quả của bạn đã được nhập khẩu thành công. Bây giờ bạn có thể quản lý chúng tại% {url}
@@ -7848,7 +7848,7 @@ en:
             Cảm ơn bạn,
             Lớp học
   row_row_message_e369e49e: 'Hàng% {hàng}:% {tin nhắn}'
-  hello_name_your_outcomes_were_successfully_importe_d0c37335: | -
+  hello_name_your_outcomes_were_successfully_importe_d0c37335: |-
     Xin chào% {tên},
 
             Your outcomes were successfully imported, but with the following issues (up to the first 100 warnings):
@@ -7860,7 +7860,7 @@ en:
             Cảm ơn bạn,
             Lớp học
   outcomes_import_failed_77efcdf4: Kết quả nhập khẩu không thành công
-  hello_name_your_outcomes_import_failed_due_to_an_e_385db5d3: | -
+  hello_name_your_outcomes_import_failed_due_to_an_e_385db5d3: |-
     Xin chào% {tên},
 
           Nhập kết quả của bạn không thành công do lỗi nhập của bạn. Vui lòng kiểm tra tệp của bạn và thử tải lên lại tại% {url}
@@ -9427,7 +9427,7 @@ en:
     page_locked: Trang này hiện đang bị khóa.
     content_locked: Bài kiểm tra này hiện đang bị khóa.
     email:
-      footer: | -
+      footer: |-
         You received this email because you are participating in one or more classes using ClassOn.  To change or turn off email notifications, visit:
         % {url}
     account_notification:
@@ -9437,7 +9437,7 @@ en:
     account_user_notification:
       email:
         subject: Thông báo quản trị tài khoản
-        url_info: | -
+        url_info: |-
           Visit the account page here:
           % {url}
         html:
@@ -9449,7 +9449,7 @@ en:
         name_info: 'Tên:% {tên}'
         email_info: 'Email:% {email}'
         username_info: 'Tên người dùng:% {tên người dùng}'
-        url_info: | -
+        url_info: |-
           You'll need to register with ClassOn before you can participate as an account admin.  You can finish the registration process here:
           % {url}
         html:
@@ -9790,7 +9790,7 @@ en:
           subject: 'Bài tập đã thay đổi:% {title},% {Course}'
           body: Việc gán "% {title}" cho% {Course} đã thay đổi.
       sms:
-        body: | -
+        body: |-
           % {title},% {khóa học} đã thay đổi.
 
           Thêm thông tin tại% {trang web}
@@ -9913,7 +9913,7 @@ en:
     collaboration_invitation:
       email:
         subject: 'Lời mời hợp tác:% {Course_or_group}'
-        body: | -
+        body: |-
           Bạn đã được mời cộng tác trên một tài liệu,% {document} cho
           % {Course_or_group}. Tài liệu được tạo trong% {service}
           và bạn đã được mời sử dụng địa chỉ email của bạn,% {email}.
@@ -9931,17 +9931,17 @@ en:
           body: Bạn đã được mời cộng tác trên một tài liệu,% {document} cho% {Course_or_group}. Tài liệu được tạo trong% {service} và bạn được mời sử dụng địa chỉ email của bạn,% {email}.
           change_profile_settings: Nếu đó là địa chỉ email sai cho loại cộng tác này, bạn sẽ cần thay đổi cài đặt hồ sơ hoặc đăng ký với% {service}.
       sms:
-        body: | -
+        body: |-
           Bạn đã được mời cộng tác trên một tài liệu,% {document} cho% {Course_or_group}.
 
           Thêm thông tin tại% {link}
       summary:
         subject: 'Lời mời hợp tác:% {Course_or_group}'
-        body: | -
+        body: |-
           Bạn đã được mời cộng tác trên một tài liệu,% {document} cho
           % {Course_or_group}. Tài liệu được tạo trong% {service}
           và bạn đã được mời sử dụng địa chỉ email của bạn,% {email}.
-        body_with_user: | -
+        body_with_user: |-
           Bạn đã được mời cộng tác trên một tài liệu,% {document} cho
           % {Course_or_group}. Tài liệu được tạo bởi% {user}
           trong% {service} và bạn đã được mời sử dụng địa chỉ email của mình,% {email}.
@@ -9967,13 +9967,13 @@ en:
           body: Cảm ơn bạn đã đăng ký với% {sản phẩm tên}! Email này là xác nhận rằng người dùng% {user} đang đăng ký tài khoản mới tại% {website}.
     confirm_sms_communication_channel:
       sms:
-        body: | -
+        body: |-
           Xác nhận đăng ký ClassOn w / code% {Confirm_code} cho% {user} bằng cách truy cập
           %{trang mạng}
     content_export_failed:
       email:
         subject: 'Xuất khóa học không thành công:% {khóa học}'
-        body: | -
+        body: |-
           Có một vấn đề khi xuất khóa học "% {Course}".
           Please notify your system administrator, and give them the following export identifier:% {id}.
         html:
@@ -10824,7 +10824,7 @@ en:
     course_already_started:
       email:
         course_already_started: Khóa học của bạn đã bắt đầu
-        body: | -
+        body: |-
           Xin chào% {người dùng},
 
           % {Course}, khóa học của bạn trên ClassOn Network, đã bắt đầu một vài ngày trước và chúng tôi nhận thấy bạn chưa đăng nhập. Chúng tôi chỉ muốn gửi cho bạn một lời nhắc cuối cùng trong trường hợp bạn quên.
@@ -10839,7 +10839,7 @@ en:
     course_required_materials:
       email:
         course_required_materials: Tài liệu và hướng dẫn cho% {khóa học}
-        body: | -
+        body: |-
           Xin chào% {người dùng},
 
           Tin tốt! % {Course}, khóa học bạn đã đăng ký trên ClassOn Network, sẽ bắt đầu sớm.
@@ -10854,7 +10854,7 @@ en:
     course_started:
       email:
         course_starts_today: Khóa học của bạn bắt đầu hôm nay
-        body: | -
+        body: |-
           Xin chào% {người dùng},
 
           Đây là một lời nhắc nhở thân thiện rằng% {Course}, khóa học của bạn trên ClassOn Network, bắt đầu từ hôm nay. Bây giờ bạn có thể đăng nhập vào% {site} và bắt đầu!
@@ -10867,7 +10867,7 @@ en:
     course_starts_in_week:
       email:
         course_starts_next_week: Khóa học của bạn bắt đầu vào tuần tới
-        body: | -
+        body: |-
           %{người sử dụng},
 
           Đến giờ rồi! % {Course}, khóa học bạn đã đăng ký trên ClassOn Network, bắt đầu vào tuần tới. Chúng tôi biết bạn phải phấn khích như thế nào và chúng tôi cũng rất phấn khích.
@@ -11223,12 +11223,12 @@ en:
   assignment_has_been_graded_for_name_4384f9b: "% {gán} đã được phân loại cho% {name}."
   canvas_alert_graded_assignment_context_for_name_459fdf31: 'Thông báo ClassOn - Đã được phân loại:% {gán},% {bối cảnh} cho% {name}'
   submission_posted_title_course_138bd744: 'Bài đăng đã đăng:% {title},% {khóa}'
-  your_instructor_has_released_grade_changes_and_new_ffe458c8: | -
+  your_instructor_has_released_grade_changes_and_new_ffe458c8: |-
     Người hướng dẫn của bạn đã phát hành các thay đổi điểm và nhận xét mới cho% {title}. Những thay đổi này hiện có thể xem được.
 
     Your can view it here:
     % {url}
-  your_instructor_has_released_grade_changes_and_new_218d61bb: | -
+  your_instructor_has_released_grade_changes_and_new_218d61bb: |-
     Người hướng dẫn của bạn đã đưa ra các thay đổi về lớp và nhận xét mới cho% {title},% {Course}.
 
     Thêm thông tin tại% {url}
@@ -11238,12 +11238,12 @@ en:
   grade_changes_and_comments_have_been_released_for__79d3473e: Thay đổi điểm và nhận xét đã được phát hành cho mọi người được xếp loại.
   grade_changes_and_comments_have_been_released_for__5d6a01a0: 'Thay đổi điểm và nhận xét đã được phát hành cho mọi người trong các phần:% {part_names}.'
   grade_changes_and_comments_have_been_released_for__3978b741: Thay đổi điểm và nhận xét đã được phát hành cho tất cả mọi người.
-  body_text_you_can_view_the_assignment_here_url_a4d5092c: | -
+  body_text_you_can_view_the_assignment_here_url_a4d5092c: |-
     %{bài kiểm tra cơ thể}
 
     You can view the assignment here:
     % {url}
-  body_text_more_info_at_url_754b1a5a: | -
+  body_text_more_info_at_url_754b1a5a: |-
     %{bài kiểm tra cơ thể}
 
     Thêm thông tin tại% {url}
@@ -11455,7 +11455,7 @@ en:
   add_alert_b2729c99: Thêm thông báo
   i_agree_to_the_tool_s_270301a5: Tôi đồng ý với công cụ
   end_user_license_agreement_6d2c666b: Thỏa thuận cấp phép người dùng cuối.
-  if_you_made_changes_to_the_student_submission_file_e006d49b: | -
+  if_you_made_changes_to_the_student_submission_file_e006d49b: |-
     Nếu bạn đã thay đổi các tệp gửi của sinh viên mà bạn đã tải xuống
       trước đó, chỉ cần nén chúng sao lưu và tải lên zip với mẫu dưới đây.
       Học sinh sẽ thấy các tập tin sửa đổi trong ý kiến ​​của họ để nộp.
@@ -11506,7 +11506,7 @@ en:
   are_you_sure_26795d3c: Bạn có chắc không?
   deleting_6421031e: xóa ...
   save_11a80ec3: Lưu
-  you_will_need_to_create_a_service_id_apple_develop_4e684a7a: | -
+  you_will_need_to_create_a_service_id_apple_develop_4e684a7a: |-
     Bạn sẽ cần tạo ID dịch vụ [Bảng điều khiển dành cho nhà phát triển của Apple] (% {apple_url}).
     Bật Đăng nhập bằng Apple và thêm% {callback_url} làm URL trả lại. Nhập định danh tại đây.
   self_registration_156392d6: Tự đăng ký
@@ -11515,7 +11515,7 @@ en:
   observer_accounts_only_30c70a70: Chỉ tài khoản người quan sát
   require_captcha_for_self_registration_b3b2ea02: Yêu cầu Captcha để tự đăng ký
   cas_url_4ba2843e: URL CAS
-  you_will_need_to_register_an_application_on_clever_ecdb9faf: | -
+  you_will_need_to_register_an_application_on_clever_ecdb9faf: |-
     Bạn sẽ cần [đăng ký một ứng dụng trên Thông minh] (% {smart_url}).
     Bạn nên định cấu hình% {callback_url} làm URL chuyển hướng.
     Sau khi bạn tạo ứng dụng của mình, hãy ghi lại ID khách hàng và Bí mật khách hàng và nhập chúng vào đây.
@@ -11525,7 +11525,7 @@ en:
   before_label_wrapper: "% {văn bản}:"
   debugging_f98fcd74: Gỡ lỗi
   once_you_start_debugging_all_info_about_the_next_a_e871403b: Khi bạn bắt đầu gỡ lỗi, tất cả thông tin về lần thử đăng nhập đã thử tiếp theo sẽ được thu thập. Nhấp vào "Làm mới" để xem có nhiều dữ liệu đã được thu thập hay "Dừng gỡ lỗi" để xóa dữ liệu đã thu thập và dừng nỗ lực gỡ lỗi hiện tại.
-  you_will_need_to_create_a_new_app_on_facebook_face_8fe85297: | -
+  you_will_need_to_create_a_new_app_on_facebook_face_8fe85297: |-
     Bạn sẽ cần tạo [ứng dụng mới trên Facebook] (% {facebook_url}) và bật Đăng nhập OAuth của khách hàng
     trong Cài đặt nâng cao. Bạn nên định cấu hình% {callback_url} làm URI chuyển hướng OAuth hợp lệ.
     Sau khi bạn lưu ứng dụng của mình, hãy ghi lại ID ứng dụng và Bí mật ứng dụng và nhập chúng vào đây.
@@ -11540,12 +11540,12 @@ en:
   choose_attribute_to_add_866e128d: Chọn thuộc tính để thêm
   add_attribute_6d6d4a65: Thêm thuộc tính
   attribute_d9f3af72: Thuộc tính
-  you_will_need_to_register_an_application_on_github_3c8f213a: | -
+  you_will_need_to_register_an_application_on_github_3c8f213a: |-
     Bạn sẽ cần [đăng ký một ứng dụng trên GitHub] (% {github_url}).
     Bạn nên định cấu hình% {callback_url} làm URL gọi lại ủy quyền.
     Sau khi bạn tạo ứng dụng của mình, hãy ghi lại ID khách hàng và Bí mật khách hàng và nhập chúng vào đây.
   domain_3b54c511: Miền
-  you_will_need_to_create_a_web_application_in_the_g_43f753ec: | -
+  you_will_need_to_create_a_web_application_in_the_g_43f753ec: |-
     Bạn sẽ cần tạo một ứng dụng web trong [Bảng điều khiển dành cho nhà phát triển của Google] (% {google_url}).
     Bạn nên thêm% {callback_url} làm URI chuyển hướng.
     Sau khi bạn tạo ứng dụng của mình, hãy ghi lại ID khách hàng và Bí mật khách hàng và nhập chúng vào đây.
@@ -11562,7 +11562,7 @@ en:
   login_attribute_731a8181: Thuộc tính đăng nhập
   username_47bb5bbe: Tên đăng nhập
   password_8a271b1c: Mật khẩu
-  you_will_need_to_register_a_new_app_with_microsoft_53e97ced: | -
+  you_will_need_to_register_a_new_app_with_microsoft_53e97ced: |-
     Bạn sẽ cần phải đăng ký [ứng dụng mới với Microsoft] (% {ms_app_url}).
     Bạn nên định cấu hình% {callback_url} làm URI chuyển hướng.
     Sau khi bạn lưu ứng dụng của mình, hãy ghi lại ID ứng dụng và Bí mật và nhập chúng vào đây.
@@ -11571,12 +11571,12 @@ en:
   to_restrict_to_users_of_your_azure_active_director_df7cdd41: Để giới hạn người dùng Azure Active Directory của bạn, hãy nhập đối tượng thuê của bạn tại đây.
   tenant_d2a41f78: Người thuê nhà
   note_that_email_may_not_always_be_populated_in_the_bb4a1572: Lưu ý rằng email có thể không phải lúc nào cũng được điền trong hồ sơ người dùng tại Microsoft. Oid sẽ không được điền cho tài khoản Microsoft cá nhân.
-  to_configure_an_openid_connect_provider_you_need_t_5c937249: | -
+  to_configure_an_openid_connect_provider_you_need_t_5c937249: |-
     Để định cấu hình nhà cung cấp OpenID Connect, bạn cần các url ủy quyền và mã thông báo, và
     lấy ID khách hàng và Bí mật khách hàng.
 
     Nếu nhà cung cấp có thể định cấu hình gọi lại hợp lệ hoặc chuyển hướng URI, hãy sử dụng% {callback_url}.
-  the_canvas_saml_entity_id_is_metadata_url_and_the__af7349ab: | -
+  the_canvas_saml_entity_id_is_metadata_url_and_the__af7349ab: |-
     ID thực thể SAML ClassOn là% {metadata_url} và siêu dữ liệu của Nhà cung cấp dịch vụ
     có sẵn tại URL đó.
   provide_a_uri_to_your_idp_s_metadata_to_automatica_38e985bd: Cung cấp URI cho siêu dữ liệu IdP của bạn để tự động điền vào các trường khác. Nếu trường của bạn là một phần của InCommon hoặc Liên đoàn quản lý truy cập Vương quốc Anh, hãy xác định urn: mace: incommon hoặc http://ukfedutions.org.uk, tương ứng, cho URI siêu dữ liệu và cũng cung cấp ID thực thể của trường bạn.
@@ -11593,7 +11593,7 @@ en:
   not_signed_47acf472: Chưa ký
   rsa_sha1_c457d751: RSA-SHA1
   rsa_sha256_3d41d605: RSA-SHA256
-  provide_the_url_to_your_saml_idp_discovery_service_daa80306: | -
+  provide_the_url_to_your_saml_idp_discovery_service_daa80306: |-
     Cung cấp URL cho Dịch vụ Khám phá SAML IdP của bạn phù hợp với
     *urn: ốc đảo: tên: tc: SAML: hồ sơ: SSO: idp-Discovery-Protocol * giao thức.
     Các nhà cung cấp SAML bổ sung cũng phải được cấu hình để theo dõi phản hồi
@@ -11603,7 +11603,7 @@ en:
   forgot_password_url_3f9c04b: Quên URL Mật khẩu
   discovery_url_3dce06d9: URL khám phá
   unknown_user_url_82196ba7: URL người dùng không xác định
-  you_will_need_to_register_an_application_on_twitte_5ff04bee: | -
+  you_will_need_to_register_an_application_on_twitte_5ff04bee: |-
     Bạn sẽ cần [đăng ký một ứng dụng trên Twitter] (% {twitter_url}).
     Bạn nên định cấu hình% {callback_url} làm URL gọi lại.
     Sau khi bạn tạo ứng dụng của mình, hãy ghi chú Khóa người tiêu dùng và Bí mật người tiêu dùng và nhập chúng vào đây.
@@ -12200,17 +12200,17 @@ en:
   regenerate_3e4679f8: Tái sinh
   app_center_will_appear_in_the_apps_tab_on_the_sett_1b9eb936: Trung tâm ứng dụng sẽ xuất hiện trong tab "Ứng dụng" trên trang cài đặt của khóa học hoặc tài khoản. URL được cung cấp bên dưới phải trỏ đến điểm cuối Trung tâm ứng dụng hợp lệ (ví dụ:% {url} - hãy chắc chắn bỏ qua dấu gạch chéo
   sample_data_e4fd01ff: Dữ liệu mẫu
-  you_will_need_to_register_an_application_on_clever_f412c7b8: | -
+  you_will_need_to_register_an_application_on_clever_f412c7b8: |-
     Bạn sẽ cần [đăng ký một ứng dụng trên Thông minh] (% {smart_url}).
     Bạn nên định cấu hình% {callback_url} làm URL chuyển hướng.
     Sau khi bạn tạo ứng dụng của mình, hãy ghi lại ID khách hàng và Bí mật khách hàng và nhập chúng vào đây.
-  you_will_need_to_register_an_application_on_linked_26ecb18d: | -
+  you_will_need_to_register_an_application_on_linked_26ecb18d: |-
     Bạn sẽ cần [đăng ký một ứng dụng trên LinkedIn] (% {Linkedin_url}).
     Bạn nên thêm% {callback_url} làm URL chuyển hướng được ủy quyền OAuth 2.0 và đặt Trạng thái ứng dụng thành Live
     Sau khi bạn tạo ứng dụng của mình, hãy ghi chú ID khách hàng và Bí mật khách hàng và nhập chúng vào đây.
   use_mathman_to_convert_latex_to_svg_3f61c9b: Sử dụng MathMan để chuyển đổi LaTeX sang SVG?
   use_mathman_to_convert_latex_to_mathml_680ef7b0: Sử dụng MathMan để chuyển đổi LaTeX sang MathML?
-  you_will_need_to_register_an_application_on_twitte_95e7b621: | -
+  you_will_need_to_register_an_application_on_twitte_95e7b621: |-
     Bạn sẽ cần [đăng ký một ứng dụng trên Twitter] (% {twitter_url}).
     Bạn nên định cấu hình% {callback_url} làm URL gọi lại và đặt Cấp truy cập thành
     Đọc, viết và truy cập tin nhắn trực tiếp
@@ -12681,7 +12681,7 @@ en:
   update_4d8ee62: Cập nhật
   user_id_or_sis_id_sis_id_should_be_prepended_with__980ff02b: ID người dùng hoặc ID SIS (ID SIS nên được thêm trước sis_user_id :)
   include_deleted_enrollments_1c87684a: Bao gồm các ghi danh đã xóa
-  this_is_a_report_of_all_students_enrolled_in_a_cou_d0137d3c: | -
+  this_is_a_report_of_all_students_enrolled_in_a_cou_d0137d3c: |-
     Đây là một báo cáo của tất cả các sinh viên theo học một khóa học trong một điều khoản nhất định mà
     đã nộp một bài tập. Báo cáo này chứa một hàng cho mỗi học sinh
       nộp hồ sơ.
@@ -13457,7 +13457,7 @@ en:
       loading_question_failed: Đang tải câu hỏi không thành công ...
     default_quesiton_name: Câu hỏi
     answer_comments: Trả lời ý kiến
-    question_limit_reached: | -
+    question_limit_reached: |-
       Bạn đã đạt đến số lượng câu hỏi tối đa được phép cho một bài kiểm tra (% {đếm} /% {giới hạn}).
 
       Như một giải pháp thay thế, hãy xem xét việc truyền bá tài liệu qua nhiều câu đố.
@@ -13661,7 +13661,7 @@ en:
   student_position_6d3b7750: Sinh viên% {vị trí}
   submit_comment_commenttext_8e5638d7: 'Gửi nhận xét:% {bình luận}'
   delete_comment_commenttext_c8afe129: 'Xóa nhận xét:% {bình luận}'
-  the_following_students_have_unsaved_changes_to_the_7762def7: | -
+  the_following_students_have_unsaved_changes_to_the_7762def7: |-
     The following students have unsaved changes to their quiz submissions:
 
     % {người dùng}
@@ -14378,7 +14378,7 @@ en:
       require_title: Bạn phải nhập một tiêu đề
     warnings:
       unsaved_changes: Bạn có những thay đổi chưa được lưu. Bạn có muốn tiếp tục mà không lưu những thay đổi này?
-      overwrite_changes: | -
+      overwrite_changes: |-
         Bạn sắp ghi đè các thay đổi khác đã được thực hiện kể từ khi bạn bắt đầu chỉnh sửa.
 
         Ghi đè những thay đổi này?
@@ -15115,7 +15115,7 @@ en:
   view_user_groups_d2bfa855: Xem nhóm người dùng
   content_on_this_page_violates_the_security_policy__25685d8a: Nội dung trên trang này vi phạm chính sách bảo mật, liên hệ với quản trị viên của bạn để được hỗ trợ.
   canvas_content_security_policy_c3d7bf2b: Chính sách bảo mật nội dung ClassOn
-  the_content_security_policy_allows_you_to_restrict_eaa7c0d6: | -
+  the_content_security_policy_allows_you_to_restrict_eaa7c0d6: |-
     Chính sách bảo mật nội dung cho phép bạn hạn chế tùy chỉnh
                    JavaScript chạy trong phiên bản ClassOn của bạn. Bạn có thể thêm thủ công
                    tối đa% {max_domains} tên miền được phép. Nên dùng thẻ hoang dã
@@ -15145,10 +15145,10 @@ en:
   allowed_domains_ee7868c8: Miền được phép
   remove_domain_as_an_allowed_domain_c510a69e: Xóa% {domain} làm tên miền được phép
   associated_tool_domains_ba5767c5: Tên miền công cụ liên kết
-  the_following_domains_have_automatically_been_allo_cea27372: | -
+  the_following_domains_have_automatically_been_allo_cea27372: |-
     Các tên miền sau đã tự động được phép từ các công cụ đã tồn tại trong tài khoản của bạn.
                      Để xóa các miền này, hãy xóa các công cụ liên quan.
-  note_associated_tools_are_only_listed_once_even_if_ebae2aba: | -
+  note_associated_tools_are_only_listed_once_even_if_ebae2aba: |-
     NOTE: Công cụ liên kết chỉ được liệt kê một lần, ngay cả khi chúng có
                     đã được cài đặt trong nhiều tài khoản phụ.
   violation_log_tray_d4eff9f4: Khay nhật ký vi phạm
@@ -16005,7 +16005,7 @@ en:
   microsoft_teams_99cb45c0: Nhóm Microsoft
   if_your_school_uses_microsoft_teams_you_can_use_th_992dff59: Nếu trường của bạn sử dụng Nhóm Microsoft, bạn có thể sử dụng Trình chỉnh sửa nội dung phong phú nâng cao (RCE) để dễ dàng thêm phòng Nhóm trong khi tạo Sự kiện lịch, Thông báo, bài đăng thảo luận và hơn thế nữa.
   learn_how_to_use_microsoft_teams_in_canvas_8b79dde: Tìm hiểu cách sử dụng Nhóm Microsoft trong ClassOn
-  conferences_powered_by_bigbluebutton_is_unable_to__37ef28fe: | -
+  conferences_powered_by_bigbluebutton_is_unable_to__37ef28fe: |-
     Các hội nghị, được cung cấp bởi BigBlueButton, không thể đáp ứng nhu cầu hiện tại. Xem xét nâng cấp lên
             Premium BigBlueButton hoặc sử dụng một trong những nhà cung cấp hội nghị video sau đây. Hãy nói chuyện với địa phương của bạn
             quản trị viên để được hướng dẫn thêm.
@@ -16183,7 +16183,7 @@ en:
   all_courses_80701c6f: Tất cả các khóa học.
   confirm_unfavorite_course_fa01966d: Xác nhận khóa học không thuận lợi
   unfavorite_coursename_32f77231: Không thuận lợi% {CourseName}
-  you_are_about_to_remove_this_course_from_your_dash_7e806db6: | -
+  you_are_about_to_remove_this_course_from_your_dash_7e806db6: |-
     Bạn sắp xóa khóa học này khỏi bảng điều khiển của bạn. Nó vẫn sẽ có sẵn
                   bằng cách điều hướng đến các khóa học> Tất cả các khóa học từ menu chính.
   we_were_unable_to_remove_this_course_from_your_fav_70fa598d: Chúng tôi không thể xóa khóa học này khỏi mục yêu thích của bạn.
@@ -17058,7 +17058,7 @@ en:
   member_count_members_out_of_maximum_of_max_members_d3e9f575: "% {thành viên_count} thành viên trong số tối đa% {max_membership}"
   group_name_b69c144: Tên nhóm
   members_af25c21d: Thành viên
-  groups_are_a_good_place_to_collaborate_on_projects_fdfe57a9: | -
+  groups_are_a_good_place_to_collaborate_on_projects_fdfe57a9: |-
     Các nhóm là một nơi tốt để cộng tác trong các dự án hoặc tìm ra lịch trình cho các buổi học
                   và như thế. Mỗi nhóm có một lịch, wiki, thảo luận và một ít không gian để lưu trữ
                   các tập tin. Các nhóm có thể hợp tác trên các tài liệu, hoặc thậm chí lên lịch các hội nghị web.
@@ -17201,7 +17201,7 @@ en:
   how_do_i_add_an_announcement_in_a_course_63396bb7: Làm thế nào để tôi thêm một thông báo trong một khóa học?
   how_do_i_edit_an_announcement_in_a_course_815c3c60: Làm cách nào để chỉnh sửa thông báo trong một khóa học?
   how_do_i_use_the_announcements_index_page_94a14011: Làm cách nào để sử dụng Trang Chỉ mục Thông báo?
-  share_important_information_about_your_course_with_dceacbf9: | -
+  share_important_information_about_your_course_with_dceacbf9: |-
     Chia sẻ thông tin quan trọng về khóa học của bạn với tất cả người dùng.
           Sử dụng thông báo để nhắc nhở học sinh về những ngày và nhiệm vụ quan trọng,
           hướng sinh viên đến các nguồn lực bên trong và bên ngoài để giúp họ đạt được
@@ -17212,7 +17212,7 @@ en:
   how_do_i_publish_or_unpublish_an_assignment_as_an__616f465: Làm cách nào để xuất bản hoặc hủy xuất bản bài tập với tư cách người hướng dẫn?
   what_assignment_types_can_i_create_in_a_course_1ed4eed4: Những loại bài tập nào tôi có thể tạo trong một khóa học?
   how_do_i_add_or_edit_details_in_an_assignment_fa779906: Làm cách nào để thêm hoặc chỉnh sửa chi tiết trong bài tập?
-  assignments_include_quizzes_graded_discussions_and_182e5899: | -
+  assignments_include_quizzes_graded_discussions_and_182e5899: |-
     Bài tập bao gồm các câu đố, thảo luận được phân loại và nhiều loại
           các bài nộp trực tuyến (tệp, hình ảnh, văn bản, URL và phương tiện truyền thông). Chỉ định
           chúng cho mọi người trong một khóa học, hoặc chỉ định ngày đáo hạn khác nhau cho cụ thể
@@ -17224,7 +17224,7 @@ en:
   how_do_i_use_the_collaborations_index_page_68ee88b5: Làm cách nào để sử dụng Trang Chỉ mục Cộng tác?
   how_do_i_create_a_google_drive_collaboration_as_an_28274cf7: Làm cách nào để tạo cộng tác Google Drive với tư cách người hướng dẫn?
   how_do_i_create_a_microsoft_office_365_collaborati_52e46698: Làm cách nào để tạo cộng tác Microsoft Office 365 với tư cách người hướng dẫn?
-  canvas_helps_you_leverage_collaborative_technology_a453f09f: | -
+  canvas_helps_you_leverage_collaborative_technology_a453f09f: |-
     ClassOn giúp bạn tận dụng công nghệ hợp tác rất nhiều
           Người dùng có thể làm việc cùng nhau trên cùng một tài liệu cùng một lúc. Tạo nên
           tài liệu hợp tác được lưu trong thời gian thực. Thay đổi được thực hiện bởi
@@ -17234,7 +17234,7 @@ en:
   how_do_i_start_a_conference_52792795: Làm thế nào để tôi bắt đầu một hội nghị?
   how_do_i_conclude_a_conference_689d60dc: Làm thế nào để tôi kết thúc một hội nghị?
   how_do_i_record_a_conference_e4845e7: Làm thế nào để tôi ghi lại một hội nghị?
-  conduct_lectures_office_hours_and_student_group_me_13ec766c: | -
+  conduct_lectures_office_hours_and_student_group_me_13ec766c: |-
     Thực hiện các bài giảng, giờ hành chính và các cuộc họp nhóm sinh viên
           Từ máy tính của bạn. Phát sóng âm thanh và video thời gian thực, chia sẻ bài thuyết trình
           slide, trình diễn các ứng dụng và tài nguyên trực tuyến,
@@ -17244,7 +17244,7 @@ en:
   how_do_i_publish_or_unpublish_a_discussion_as_an_i_4055a43e: Làm thế nào để tôi xuất bản hoặc không công bố một cuộc thảo luận như một người hướng dẫn?
   how_do_i_reply_to_a_discussion_as_an_instructor_399fdaff: Làm thế nào để tôi trả lời một cuộc thảo luận như một người hướng dẫn?
   how_do_i_view_and_sort_discussion_replies_as_an_in_a73217e3: Làm thế nào để tôi xem và sắp xếp trả lời thảo luận như một người hướng dẫn?
-  discussions_allow_students_and_instructors_to_comm_ce03ca43: | -
+  discussions_allow_students_and_instructors_to_comm_ce03ca43: |-
     Thảo luận cho phép sinh viên và người hướng dẫn giao tiếp về
           chủ đề khóa học bất cứ lúc nào. Tạo các cuộc thảo luận cho một lớp, hoặc tạo điều kiện
           thảo luận để sinh viên trao đổi ý kiến ​​và giải quyết vấn đề. Có ren
@@ -17255,7 +17255,7 @@ en:
   how_do_i_upload_a_file_to_a_course_e8332cfe: Làm cách nào để tải tệp lên một khóa học?
   how_do_i_bulk_upload_files_to_a_course_b145d8cc: Làm cách nào để tải lên hàng loạt tệp vào một khóa học?
   how_do_i_move_and_organize_my_files_as_an_instruct_5ae4f9bd: Làm thế nào để tôi di chuyển và sắp xếp các tệp của mình như một người hướng dẫn?
-  upload_and_store_course_files_or_any_other_files_y_b00cb954: | -
+  upload_and_store_course_files_or_any_other_files_y_b00cb954: |-
     Tải lên và lưu trữ các tệp khóa học, hoặc bất kỳ tệp nào khác bạn cần giữ
           trên tay. Khi bạn lưu tài sản trong Tệp, chúng dễ dàng chèn trực tiếp vào
           mô-đun, bài tập, thảo luận hoặc trang! Phân phối tệp cho sinh viên
@@ -17268,7 +17268,7 @@ en:
   how_do_i_view_assignments_or_students_individually_2b7211f8: Làm cách nào để tôi xem các bài tập hoặc học sinh riêng lẻ trong Sổ Điểm?
   how_do_i_use_speedgrader_e18e4ca2: Làm cách nào để sử dụng SpeedGrader?
   how_do_i_view_the_details_of_a_submission_for_a_st_3ba83fb3: Làm cách nào để tôi xem chi tiết bài nộp cho học sinh trong SpeedGrader?
-  display_grades_as_points_percentages_complete_inco_fa848380: | -
+  display_grades_as_points_percentages_complete_inco_fa848380: |-
     Hiển thị các lớp như
           điểm, tỷ lệ phần trăm, hoàn thành / không đầy đủ hoặc bất kỳ phương pháp nào phù hợp
           kế hoạch chấm điểm khóa học của bạn, và lọc và sắp xếp các mục trong Sổ Điểm
@@ -17280,7 +17280,7 @@ en:
   how_do_i_use_the_course_home_page_as_an_instructor_af32848e: Làm cách nào để sử dụng Trang chủ khóa học làm người hướng dẫn?
   what_layout_options_are_available_in_the_course_ho_5d364ce3: Những tùy chọn bố trí nào có sẵn trong Trang chủ khóa học như một người hướng dẫn?
   how_do_i_change_the_course_home_page_326cee50: Làm cách nào để thay đổi Trang chủ khóa học?
-  the_course_home_page_is_the_first_page_students_se_4dbacd35: | -
+  the_course_home_page_is_the_first_page_students_se_4dbacd35: |-
     Trang chủ khóa học là trang đầu tiên sinh viên nhìn thấy khi họ mở
           khóa học của bạn. Trang chủ có thể hiển thị hoạt động tham gia khóa học
           luồng, trang Mô-đun khóa học, danh sách Bài tập khóa học, Đề cương,
@@ -17290,7 +17290,7 @@ en:
   how_do_i_import_a_canvas_course_export_package_ed3aafd4: Làm cách nào để nhập gói xuất khóa học ClassOn?
   how_do_i_select_specific_content_as_part_of_a_cour_11fe2c8d: Làm cách nào để tôi chọn nội dung cụ thể như một phần của quá trình nhập khóa học?
   how_do_i_adjust_events_and_due_dates_in_a_course_i_4647c50b: Làm cách nào để điều chỉnh các sự kiện và ngày đáo hạn trong quá trình nhập khóa học?
-  easily_import_or_copy_content_from_another_canvas__c6312f32: | -
+  easily_import_or_copy_content_from_another_canvas__c6312f32: |-
     Dễ dàng nhập hoặc sao chép nội dung từ một khóa học ClassOn khác vào
             khóa học của bạn hoặc nhập nội dung từ các định dạng khác, chẳng hạn như Moodle hoặc QTI.
   organize_course_content_11de8958: Tổ chức nội dung khóa học
@@ -17298,7 +17298,7 @@ en:
   how_do_i_publish_or_unpublish_a_module_as_an_instr_6e1758d7: Làm thế nào để tôi xuất bản hoặc hủy xuất bản một mô-đun như một người hướng dẫn?
   how_do_i_add_assignment_types_pages_and_files_as_m_c1a520a6: Làm cách nào để thêm các loại bài tập, trang và tệp dưới dạng các mục mô-đun?
   how_do_i_move_or_reorder_a_module_e64a4baa: Làm thế nào để tôi di chuyển hoặc sắp xếp lại một mô-đun?
-  use_modules_to_organize_your_content_and_create_a__1da4149: | -
+  use_modules_to_organize_your_content_and_create_a__1da4149: |-
     Sử dụng các mô-đun để tổ chức nội dung của bạn và tạo một luồng tuyến tính cho
           sinh viên nên làm gì trong khóa học. Các mô-đun có thể được sử dụng để tổ chức
           nội dung theo tuần, đơn vị hoặc một cấu trúc tổ chức khác nhau.
@@ -17310,7 +17310,7 @@ en:
   how_do_i_send_a_message_to_all_students_based_on_s_59d186d1: Làm cách nào để tôi gửi tin nhắn cho tất cả sinh viên dựa trên các tiêu chí khóa học cụ thể trong Phân tích mới?
   how_do_i_send_a_message_to_an_individual_student_i_92c7fb: Làm cách nào để tôi gửi tin nhắn cho một sinh viên trong Phân tích mới?
   how_do_i_view_analytics_for_an_individual_student_724134ed: Làm cách nào để tôi xem phân tích cho từng học sinh?
-  new_analytics_is_an_interactive_tool_that_helps_yo_9bd32611: | -
+  new_analytics_is_an_interactive_tool_that_helps_yo_9bd32611: |-
     Phân tích mới là một công cụ tương tác giúp bạn và sinh viên của bạn tốt hơn
         theo dõi hiệu suất và hoạt động trong khóa học. Tìm hiểu những gì sinh viên đã xem
         trang và tài nguyên và tham gia vào các bài tập Giáo dục và học sinh có thể cần một
@@ -17321,7 +17321,7 @@ en:
   how_do_i_create_outcome_groups_for_a_course_362429a0: Làm thế nào để tôi tạo các nhóm kết quả cho một khóa học?
   how_do_i_import_outcomes_for_a_course_8eced1a: Làm thế nào để tôi nhập kết quả cho một khóa học?
   how_do_i_use_the_learning_mastery_gradebook_to_vie_c555acf2: Làm cách nào để sử dụng Sổ Điểm Học tập để xem kết quả trong một khóa học từ Sổ Điểm?
-  set_up_outcomes_in_your_course_as_measured_by_peda_34237d17: | -
+  set_up_outcomes_in_your_course_as_measured_by_peda_34237d17: |-
     Thiết lập kết quả trong khóa học của bạn được đo bằng các mục tiêu sư phạm hoặc mục tiêu mong muốn.
           Giúp học sinh học các kỹ năng và hoạt động, thay vì chỉ tập trung vào các lớp như một thước đo thành công của họ.
           Đánh giá sự tiến bộ của học sinh thông qua các phương pháp tính toán và đo lường tiến bộ trực tiếp trong Sổ Điểm học tập thành thạo.
@@ -17331,7 +17331,7 @@ en:
   how_do_i_publish_or_unpublish_a_page_as_an_instruc_5721ea3: Làm thế nào để tôi xuất bản hoặc hủy xuất bản một trang như một người hướng dẫn?
   how_do_i_use_the_pages_index_page_dafb986c: Làm cách nào để sử dụng Trang Chỉ mục Trang?
   how_do_i_set_a_front_page_in_a_course_a5f53cd5: Làm cách nào để đặt Trang trước trong một khóa học?
-  pages_let_you_create_interactive_content_directly__9933eb32: | -
+  pages_let_you_create_interactive_content_directly__9933eb32: |-
     Các trang cho phép bạn tạo nội dung tương tác trực tiếp trong ClassOn,
           cho dù đó là bản cập nhật hàng tuần, wiki khóa học hợp tác hay
           danh sách các tài nguyên giáo dục. Các trang có thể bao gồm văn bản, đa phương tiện,
@@ -17342,7 +17342,7 @@ en:
   how_do_i_add_users_to_a_course_4a88efaf: Làm cách nào để thêm người dùng vào một khóa học?
   how_do_i_view_a_context_card_for_a_student_in_a_co_166c0e59: Làm thế nào để tôi xem một thẻ bối cảnh cho một sinh viên trong một khóa học?
   how_do_i_view_user_details_for_an_enrollment_in_a__308e9ac0: Làm cách nào để xem chi tiết người dùng khi đăng ký khóa học?
-  what_s_a_class_without_people_to_take_and_lead_it__4470b81a: | -
+  what_s_a_class_without_people_to_take_and_lead_it__4470b81a: |-
     Một lớp học không có người để học và lãnh đạo nó là gì? Trang người
           hiển thị danh sách người dùng trong khóa học của bạn. Tùy thuộc vào quyền của bạn,
           bạn có thể thêm sinh viên, trợ lý giáo viên và quan sát viên vào
@@ -17354,7 +17354,7 @@ en:
   how_do_i_manage_settings_for_an_assessment_in_new__b2688ec7: Làm cách nào để tôi quản lý cài đặt cho đánh giá trong Câu đố mới?
   how_do_i_create_a_quiz_with_individual_questions_4a68ce0d: Làm thế nào để tôi tạo một bài kiểm tra với các câu hỏi riêng lẻ?
   what_options_can_i_set_in_a_quiz_53522d76: Tôi có thể đặt những lựa chọn nào trong một bài kiểm tra?
-  use_quizzes_to_challenge_student_understanding_and_a340ff1c: | -
+  use_quizzes_to_challenge_student_understanding_and_a340ff1c: |-
     Sử dụng các câu đố để thử thách sự hiểu biết của sinh viên và đánh giá sự hiểu
           tất nhiên vật chất. Công cụ đánh giá Câu đố mới cho phép bạn tạo tối đa
           13 loại câu hỏi và nội dung. Nếu Câu đố mới không được bật cho tổ chức của bạn,
@@ -17364,7 +17364,7 @@ en:
   how_do_i_manage_rubrics_in_a_course_a5441fb7: Làm thế nào để tôi quản lý phiếu tự đánh giá trong một khóa học?
   how_do_i_align_an_outcome_with_a_rubric_in_a_cours_d9c8f009: Làm thế nào để tôi sắp xếp một kết quả với một phiếu tự đánh giá trong một khóa học?
   how_do_i_add_a_rubric_to_an_assignment_46fd097e: Làm thế nào để tôi thêm một phiếu tự đánh giá vào một bài tập?
-  rubrics_can_show_students_your_expectations_for_as_3382da64: | -
+  rubrics_can_show_students_your_expectations_for_as_3382da64: |-
     Rubrics có thể cho sinh viên thấy sự mong đợi của bạn về chất lượng bài tập
         và làm thế nào họ sẽ được ghi điểm cho phù hợp. Phiếu tự đánh giá có thể được liên kết với
         bài tập, thảo luận và câu đố. Sử dụng một phiếu tự đánh giá duy nhất để chấm điểm,
@@ -17376,14 +17376,14 @@ en:
   how_do_i_set_details_for_a_course_52cfbeff: Làm thế nào để tôi đặt chi tiết cho một khóa học?
   how_do_i_change_a_course_name_and_course_code_23b41292: Làm cách nào để thay đổi tên khóa học và mã khóa học?
   how_do_i_add_an_image_to_a_course_card_in_the_dash_c869a3d7: Làm cách nào để thêm hình ảnh vào thẻ khóa học trong Bảng điều khiển?
-  make_your_course_your_own_upload_an_image_to_repre_ec57713e: | -
+  make_your_course_your_own_upload_an_image_to_repre_ec57713e: |-
     Làm cho khóa học của bạn của riêng bạn! Tải lên một hình ảnh để đại diện cho của bạn
           khóa học, cho phép sinh viên quản lý các khu vực nội dung khóa học và ẩn lớp
           chi tiết từ sinh viên. Bạn cũng có thể điều chỉnh tên khóa học và mã.
   communicate_course_objectives_f457158c: Truyền đạt mục tiêu khóa học
   how_do_i_use_the_syllabus_as_an_instructor_82f00933: Làm thế nào để tôi sử dụng Giáo trình như một người hướng dẫn?
   how_do_i_edit_the_syllabus_description_in_a_course_57f25a87: Làm cách nào để chỉnh sửa mô tả Đề cương trong một khóa học?
-  the_syllabus_lets_you_welcome_your_course_users_an_ba74c779: | -
+  the_syllabus_lets_you_welcome_your_course_users_an_ba74c779: |-
     Giáo trình cho phép bạn chào đón người dùng khóa học của mình và chia sẻ kỳ vọng
           với các sinh viên của bạn. Sử dụng mô tả Đề cương để làm rõ mục tiêu khóa học,
           phương pháp liên hệ ưa thích và các chi tiết khác hoặc tải lên bản PDF hiện có
@@ -17400,7 +17400,7 @@ en:
   how_do_i_turn_my_camera_on_or_off_and_use_zoom_con_8a96538b: Làm cách nào để bật hoặc tắt máy ảnh của tôi và sử dụng các điều khiển Thu phóng?
   how_do_i_share_my_screen_c280e585: Làm thế nào để tôi chia sẻ màn hình của tôi?
   how_do_i_manage_and_share_the_recording_52fc2993: Làm cách nào để quản lý và chia sẻ bản ghi âm?
-  zoom_is_a_real_time_video_conferencing_tool_that_b_97dd23ec: | -
+  zoom_is_a_real_time_video_conferencing_tool_that_b_97dd23ec: |-
     Zoom là một công cụ hội nghị truyền hình thời gian thực mang lại
         giáo viên và học sinh với nhau Bạn có thể lên lịch và chạy
         cuộc họp video trực tiếp trong ClassOn bằng cách thêm liên kết Thu phóng
@@ -17495,7 +17495,7 @@ en:
   an_outcome_import_is_currently_in_progress_11e6cb38: Một kết quả nhập hiện đang được tiến hành.
   it_s_ok_to_leave_this_page_we_ll_email_you_when_th_2dbed7fa: Bạn có thể rời khỏi trang này, chúng tôi sẽ gửi email cho bạn khi quá trình nhập được thực hiện.
   no_announcements_to_display_fbf9ed1e: Không có thông báo để hiển thị
-  you_can_view_dismissed_announcements_by_going_to_a_7f6f4f08: | -
+  you_can_view_dismissed_announcements_by_going_to_a_7f6f4f08: |-
     Bạn có thể xem các thông báo bị loại bỏ bằng cách truy cập Tài khoản và chọn Toàn cầu
                 Thông báo từ menu.
   recent_f19e8c64: Gần đây
@@ -17942,11 +17942,11 @@ en:
   allows_user_to_create_new_conferences_allows_user__89cebec2: Cho phép người dùng tạo hội nghị mới. Cho phép người dùng bắt đầu hội nghị mà họ đã tạo.
   to_allow_full_management_of_conferences_created_by_bece5de: Để cho phép quản lý toàn bộ các hội nghị do người dùng hoặc người khác tạo ra, quyền cũng phải được bật. Để kết thúc một hội nghị kéo dài, phải bật quyền Nội dung khóa học. Nếu quyền Nội dung khóa học được bật và Hội nghị web - tạo bị vô hiệu hóa, người dùng vẫn có thể quản lý hội nghị. Quyền này kiểm soát khả năng của người dùng để tạo hội nghị trong các khóa học và nhóm.
   there_was_an_error_generating_the_pairing_code_9edd639b: Đã xảy ra lỗi khi tạo mã ghép nối
-  share_the_following_pairing_code_with_an_observer__44f50f99: | -
+  share_the_following_pairing_code_with_an_observer__44f50f99: |-
     Chia sẻ mã ghép nối sau với người quan sát để cho phép
         chúng để kết nối với% {name}. Mã này sẽ hết hạn sau bảy ngày,
         hoặc sau một lần sử dụng.
-  share_the_following_pairing_code_with_an_observer__9b7c3667: | -
+  share_the_following_pairing_code_with_an_observer__9b7c3667: |-
     Chia sẻ mã ghép nối sau với người quan sát để cho phép
         họ để kết nối với bạn. Mã này sẽ hết hạn sau bảy ngày,
         hoặc sau một lần sử dụng.
@@ -18442,21 +18442,21 @@ en:
       one: Thu gọn% {đếm} thảo luận
       other: Thu gọn% {đếm} thảo luận
     confirm:
-      close: | -
+      close: |-
         Bạn có chắc chắn muốn kết thúc hội nghị này?
 
         Bạn sẽ không thể mở lại nó.
     show_more_link:
       show_less: Hiển thị ít hơn
       show_more: Hiển thị thêm
-  you_may_not_reproduce_or_communicate_any_of_the_co_7636b552: | -
+  you_may_not_reproduce_or_communicate_any_of_the_co_7636b552: |-
     Bạn không được sao chép hoặc truyền đạt bất kỳ nội dung nào trên
                 khóa học này, bao gồm các tập tin được xuất từ ​​khóa học này mà không có văn bản trước
                 sự cho phép của tổ chức của bạn. Kiểm tra với tổ chức của bạn để biết trực tuyến cụ thể
                 hướng dẫn thỏa thuận người dùng.
   an_error_occurred_please_try_again_later_84223241: Xảy ra lỗi. Vui lòng thử lại sau.
   this_may_take_a_bit_c061d0f6: điều này có thể mất một chút ...
-  the_download_process_has_started_this_can_take_awh_7e616db1: | -
+  the_download_process_has_started_this_can_take_awh_7e616db1: |-
     Quá trình tải xuống đã bắt đầu. Điều này
               có thể mất một lúc cho các khóa học lớn. Bạn có thể rời khỏi
               và bạn sẽ nhận được thông báo khi tải xuống
